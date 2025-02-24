@@ -19,7 +19,6 @@ def pregunta_01():
     El gráfico debe salvarse al archivo `files/plots/news.png`.
 
     """
-    plt.figure
 
     colors = {'Television': 'dimgray', 'Newspaper': 'grey', 'Internet': 'tab:blue', 'Radio': 'lightgrey'}
     zorder = {'Television': 1, 'Newspaper': 1, 'Internet': 2, 'Radio': 1}
